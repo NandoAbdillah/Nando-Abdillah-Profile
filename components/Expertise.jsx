@@ -5,43 +5,51 @@ import React from "react";
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useLocale } from "@/app/ClientRootLayout";
 
-const services = [
-  {
-    num: "01",
-    title: "Web Development",
-    description:
-      "I architect and build dynamic, high-performance web applications using Laravel, React, Next.js, Tailwind CSS, and Bootstrap. Proficient in HTML, CSS, JavaScript, and PHP, I’ve delivered solutions such as a job-seeking platform, a social networking site, and custom content management systems that optimize user engagement and efficiency.",
-    href: "https://github.com/NandoAbdillah",
-    img: "/img",
-  },
-  {
-    num: "02",
-    title: "UI/UX Design",
-    description:
-      "I craft intuitive, user-centered interfaces and seamless experiences in Figma, progressing from wireframes to interactive prototypes. My portfolio includes a polished personal portfolio website and a modern web-based music streaming app, both designed to maximize usability and visual appeal.",
-    href: "https://github.com/NandoAbdillah",
-  },
-  {
-    num: "03",
-    title: "Data Analysis & Machine Learning",
-    description:
-      "I perform comprehensive data analysis and develop machine learning models using Python and Kaggle datasets. Experienced in regression and classification techniques, I’ve built predictive systems that forecast sales trends and classify customer behaviors to support strategic decision-making.",
-    href: "https://github.com/NandoAbdillah",
-  },
-  {
-    num: "04",
-    title: "Android Development",
-    description:
-      "I develop robust Android applications in Android Studio using Kotlin and Java, leveraging XML for responsive layouts. By integrating RESTful APIs powered by Laravel, I enable features like secure authentication, real-time data synchronization, and personalized user dashboards.",
-    href: "https://github.com/NandoAbdillah",
-  },
-];
+
 
 function Expertise() {
+
+  const {translations} = useLocale();
+
+  const services = [
+    {
+      num: "01",
+      title: `${translations?.expert_web_title}`,
+      description:
+        `${translations?.expert_web_desc}`,
+      href: "https://github.com/NandoAbdillah",
+      img: "/img",
+    },
+    {
+      num: "02",
+      title: `${translations?.expert_android_title}`,
+      description:
+        `${translations?.expert_android_desc}`,
+      href: "https://github.com/NandoAbdillah",
+    },
+    {
+      num: "03",
+      title: `${translations?.expert_ui_title}`,
+      description:
+        `${translations?.expert_ui_desc}`,
+      href: "https://github.com/NandoAbdillah",
+    },
+    {
+      num: "04",
+      title: `${translations?.expert_data_title}`,
+      description:
+       `${translations?.expert_data_desc}`,
+      href: "https://github.com/NandoAbdillah",
+    },
+   
+  ];
+
+
   return (
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-5 xl:px-10 px-5">
-      <h3 className="text-4xl font-bold mb-10 mx-auto ">My Expertise</h3>
+      <h3 className="text-4xl font-bold mb-10 mx-auto ">{translations?.expertise}</h3>
       <div className="container mx-auto">
         <motion.div
           initial={{

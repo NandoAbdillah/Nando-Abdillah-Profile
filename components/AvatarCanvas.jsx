@@ -12,7 +12,10 @@ export default function AvatarCanvas() {
     style={{ background: 'transparent' }} camera={{ position: [0, 2, 5], fov: 30 }}>
       {/* <color attach="background" args={["#1E1F2B"]} /> */}
 
-      <OrbitControls />
+      <OrbitControls
+        enableZoom={false}
+        enablePan={false}
+      />
       <ambientLight intensity={2} />
 
       <directionalLight

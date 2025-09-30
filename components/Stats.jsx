@@ -1,31 +1,38 @@
 "use client";
 
+import { useLocale } from "@/app/ClientRootLayout";
 import CountUp from "react-countup";
 
 
 
-const stats = [
-    {
-        num: 3,
-        text: "Years of experience"
-    },
-    {
-        num: 7,
-        text: "Projects completed "
-    },
-    {
-        num: 5,
-        text: "Programming language mastered"
-    },
-    {
-        num: 220,
-        text: "Code commits"
-    },
-]
+
 
 function Stats() {
+
+    const {translations} = useLocale();
+
+    const stats = [
+        {
+            num: 3,
+            text: `${translations?.stats_experience}`
+        },
+        {
+            num: 7,
+            text: `${translations?.stats_completed}`
+        },
+        {
+            num: 5,
+            text: `${translations?.stats_programming}`
+        },
+        {
+            num: 220,
+            text: `${translations?.stats_commits}`
+        },
+    ]
+
+
     return (
-        <section className="pt-4 pb-12 xl:pt-0 xl:pb-0 mb-[10vw]">
+        <section className="pt-4 pb-12 xl:pt-0 xl:pb-0 mb-[10vw]  ">
             <div className="container mx-auto">
                 <div className="flex flex-wrap gap-6 max-w-[80vw] xl:max-w-none">
                     {

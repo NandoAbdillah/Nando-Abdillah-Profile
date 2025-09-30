@@ -1,0 +1,25 @@
+{
+    "hero_me_web" : "I'm a Junior Web Developer",
+    "hero_me_mobile" : "I'm a Mobile Developer",
+    "hero_me_design" : "I'm a UI/UX Designer",
+    "hero_me" : "It's me",
+    "hero_me_desc" : "I excel at crafting elegant digital experience and am proficientin various programming languages and technologies",
+
+    "stats_experience" : "Years of Experience",
+    "stats_completed" : "Projects Completed",
+    "stats_programming" : "Programming Languages",
+    "stats_commits" : "GitHub Commits",
+
+    "expertise" : "My Expertise",
+    "expert_web_title" : "Web Development",
+    "expert_web_desc" : "I architect and build dynamic, high-performance web applications using Laravel, React, Next.js, Tailwind CSS, and Bootstrap. Proficient in HTML, CSS, JavaScript, and PHP, I’ve delivered solutions such as a job-seeking platform, a social networking site, and custom content management systems that optimize user engagement and efficiency.",
+
+    "expert_ui_title" : "UI/UX Design",
+    "expert_ui_desc" : "I craft intuitive, user-centered interfaces and seamless experiences in Figma, progressing from wireframes to interactive prototypes. My portfolio includes a polished personal portfolio website and a modern web-based music streaming app, both designed to maximize usability and visual appeal.",
+
+    "expert_data_title" : "Data Analysis & Machine Learning",
+    "expert_data_desc" : "I perform comprehensive data analysis and develop machine learning models using Python and Kaggle datasets. Experienced in regression and classification techniques, I’ve built predictive systems that forecast sales trends and classify customer behaviors to support strategic decision-making.",
+
+    "expert_android_title" : "Android App Development",
+    "expert_android_desc" : "I develop robust Android applications in Android Studio using Kotlin and Java, leveraging XML for responsive layouts. By integrating RESTful APIs powered by Laravel, I enable features like secure authentication, real-time data synchronization, and personalized user dashboards."
+}

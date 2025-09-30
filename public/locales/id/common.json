@@ -1,0 +1,27 @@
+{
+  "hero_me_web": "Saya Pengembang Web Junior",
+  "hero_me_mobile": "Saya Pengembang Aplikasi Mobile",
+  "hero_me_design": "Saya Desainer UI/UX ",
+  "hero_me": "Saya",
+  "hero_me_desc": "Saya ahli dalam merancang pengalaman digital yang elegan dan mahir dalam berbagai bahasa pemrograman serta teknologi",
+
+  "stats_experience": "Tahun Pengalaman",
+  "stats_completed": "Proyek Selesai",
+  "stats_programming": "Bahasa Pemrograman",
+  "stats_commits": "Commit GitHub",
+
+
+  "expertise" : "Keahlian Saya",
+
+  "expert_web_title": "Pengembangan Web",
+  "expert_web_desc": "Saya merancang dan membangun aplikasi web yang dinamis dan berkinerja tinggi menggunakan Laravel, React, Next.js, Tailwind CSS, dan Bootstrap. Mahir dalam HTML, CSS, JavaScript, dan PHP, saya telah mengembangkan solusi seperti platform pencari kerja, situs jejaring sosial, serta sistem manajemen konten kustom yang mengoptimalkan keterlibatan pengguna dan efisiensi.",
+
+  "expert_ui_title": "Desain UI/UX",
+  "expert_ui_desc": "Saya menciptakan antarmuka yang intuitif, berpusat pada pengguna, serta pengalaman yang mulus menggunakan Figma, mulai dari wireframe hingga prototipe interaktif. Portofolio saya mencakup situs portofolio pribadi yang profesional dan aplikasi streaming musik berbasis web modern, keduanya dirancang untuk memaksimalkan kegunaan dan daya tarik visual.",
+
+  "expert_data_title": "Analisis Data & Machine Learning",
+  "expert_data_desc": "Saya melakukan analisis data yang komprehensif dan membangun model machine learning menggunakan Python serta dataset dari Kaggle. Berpengalaman dalam teknik regresi dan klasifikasi, saya telah mengembangkan sistem prediktif untuk meramalkan tren penjualan dan mengklasifikasikan perilaku pelanggan guna mendukung pengambilan keputusan strategis.",
+
+  "expert_android_title": "Pengembangan Aplikasi Android",
+  "expert_android_desc": "Saya mengembangkan aplikasi Android yang tangguh di Android Studio menggunakan Kotlin dan Java, serta memanfaatkan XML untuk tata letak yang responsif. Dengan mengintegrasikan RESTful API berbasis Laravel, saya menghadirkan fitur seperti autentikasi yang aman, sinkronisasi data secara real-time, dan dasbor pengguna yang dipersonalisasi."
+}

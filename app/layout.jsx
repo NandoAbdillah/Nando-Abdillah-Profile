@@ -7,6 +7,7 @@ import CustomCursor from "@/components/CustomCursor";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import FireflyBackground from "@/components/FireflyBackground";
 import "react-photo-view/dist/react-photo-view.css";
+import ClientRootLayout from "./ClientRootLayout";
 
 const jetBrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains-mono",
@@ -40,15 +41,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${firaCode.variable}   `}>
-        <FireflyBackground />
-        <ScrollArea className="h-screen w-full  ">
-          <Header />
+        <ClientRootLayout>
+          <FireflyBackground />
+          <ScrollArea className="h-screen w-full  ">
+            <Header />
 
-          <CustomCursor />
+            <CustomCursor />
 
-          <StairTransition />
-          <PageTransition>{children}</PageTransition>
-        </ScrollArea>
+            <StairTransition />
+            <PageTransition>{children}</PageTransition>
+          </ScrollArea>
+        </ClientRootLayout>
       </body>
     </html>
   );

@@ -1,10 +1,17 @@
-    import Link from "next/link"
+"use client";
+
+import Link from "next/link"
 import { Button } from "./ui/button"
 import Nav from "./Nav"
 import MobileNav from "./MobileNav"
+import { useLocale } from "@/app/ClientRootLayout"
+
 export const Header = () => {
+
+    const {headers} = useLocale();
+
     return (
-        <header className=" py-8 xl:py-12 text-white px-8 xl:py-12 ">
+        <header className=" py-8 xl:py-12 text-white px-8 ">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <Link href={"/"}>
@@ -18,7 +25,7 @@ export const Header = () => {
                     <Nav />
                     <Link href={"mailto:nandoabdilah1606@gmail.com"}>
                         <Button>
-                        Hire Me
+                            {headers?.btn_hire_me}
                         </Button>
                     </Link>
                 </div>
